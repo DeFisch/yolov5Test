@@ -20,7 +20,7 @@ def rand_color():
 PATH = '../data/'
 suffix = '.jpg'
 imgs = []
-for i in range(1,14):
+for i in range(1,16):
     imgs.append(PATH+str(i)+suffix)
 
 cnt = 0
