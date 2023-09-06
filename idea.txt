@@ -1,0 +1,7 @@
+-by Daniel Feng
+
+For this task the approach is fairly simple: find a reliable pretrained deep learning model, apply it and display the result.
+
+After looking into several models, I find YOLO (You Only Look Once) model is fairly reliable and is powerful enough to classify 80 different categories. Among which, I chose to use yolov5 as it's fast and is not that large (18Mb). Though yolov8 is a more powerful model, it has some extra features like image segmentation that we are not gonna use. After applying the model and computing the result, I draw the bounding box and prediction on the image using OpenCV, as well as print the list the objects information in the console.
+
+I have tested the model on a wide variety of image data that involves vehicles, human, and animals, and the model almost always recognize every traget flawlessly, so I expect no errors resulting from this program.
